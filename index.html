@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ash-tech Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <div class="brand">
+                <div class="brand-dot">A</div>
+                <span class="name">@shy.</span>
+            </div>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#services">Services</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            🌙
+          </button>
+                <button class="btn btn-ghost" data-open="login">Log in</button>
+                <button class="btn btn-primary" data-open="signup">Sign up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+    <header class="hero">
+        <div class="handle">@<span>rakib.uiux</span></div>
+        <h1>Design that feels<br />as good as it <em>looks</em>.</h1>
+        <p>
+            A clean fintech UI concept — wallets, transfers, and transactions crafted with a bold blue accent and a soft, airy canvas.
+        </p>
+        <div class="hero-cta">
+            <button class="btn btn-primary" data-open="signup">
+          Get started free
+        </button>
+            <button class="btn btn-ghost" data-open="login">
+          I already have an account
+        </button>
+        </div>
+    </header>
+
+    <!-- ================= SHOWCASE ================= -->
+    <section class="showcase" id="work">
+        <!-- PHONE 1 -->
+        <div class="phone">
+            <div class="row">
+                <div>
+                    <div class="hi">Hi, Octavia</div>
+                    <div class="balance">◎ 240.10 <small>USDT</small></div>
+                </div>
+                <div class="row-tight">
+                    <div class="avatar sm"></div>
+                    <div class="avatar sm"></div>
+                </div>
+            </div>
+
+            <div class="row" style="gap: 12px">
+                <div class="card-blue" style="flex: 1.2">
+                    <div class="lbl">You sent to Kinan</div>
+                    <div class="big">42.00 <small>USDT</small></div>
+                    <div class="sub">Thank you for yesterday's coffee ☕</div>
+                </div>
+                <div class="card-mini" style="flex: 1">
+                    <div class="row-tight">
+                        <div class="avatar sm"></div>
+                        <div class="t">Agus sent you</div>
+                    </div>
+                    <div class="a">20.00 <small>USDT</small></div>
+                    <div class="t" style="font-size: 0.58rem">
+                        Your cake is delicious, will buy again
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">Send Again</div>
+            <div class="avatar-row" style="justify-content: space-between">
+                <div class="avatar-col">
+                    <div class="avatar"></div>
+                    Kinan
+                </div>
+                <div class="avatar-col">
+                    <div class="avatar"></div>
+                    Greyhold
+                </div>
+                <div class="avatar-col">
+                    <div class="avatar"></div>
+                    Agus
+                </div>
+                <div class="avatar-col">
+                    <div class="avatar"></div>
+                    Yanti
+                </div>
+                <div class="avatar-col">
+                    <div class="avatar"></div>
+                    Nolan
+                </div>
+            </div>
+
+            <div class="section-title">
+                Recent Payment <a href="#">All Transaction</a>
+            </div>
+            <div class="txn">
+                <div class="txn-icon orange">🅰</div>
+                <div class="txn-info">
+                    <div class="n">Amazon</div>
+                    <div class="d">1 minute ago</div>
+                </div>
+                <div class="txn-amt">-95.00 <small>USDT</small></div>
+            </div>
+            <div class="txn">
+                <div class="txn-icon"></div>
+                <div class="txn-info">
+                    <div class="n">Apple</div>
+                    <div class="d">1 hour ago</div>
+                </div>
+                <div class="txn-amt">-18.10 <small>USDT</small></div>
+            </div>
+
+            <div class="tabbar">
+                <div class="tab">🏠</div>
+                <div class="tab active">➤</div>
+                <div class="tab">📄</div>
+            </div>
+        </div>
+
+        <!-- PHONE 2 -->
+        <div class="phone phone-blue">
+            <div class="phone-blue-head">
+                <span>◎ 240.10</span>
+                <span class="amt">USDT</span>
+            </div>
+            <div class="phone-inner">
+                <div class="row">
+                    <div class="row-tight">
+                        <span style="font-weight: 700">‹</span>
+                        <span style="font-weight: 700; font-size: 0.9rem">Send Money</span
+              >
+            </div>
+          </div>
+
+          <div class="send-row">
+            <div class="row-tight">
+              <div class="avatar sm"></div>
+              <div>
+                <div class="l" style="color: var(--text)">You're sending</div>
+                <div class="v">42 <small>USDT</small></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="send-row" style="border-bottom: none">
+            <div class="row-tight">
+              <div class="avatar sm"></div>
+              <div>
+                <div class="l" style="color: var(--text)">
+                  Kinan will receive
+                </div>
+                <div class="v">$ 601,494.26 <small>IDR 🇮🇩</small></div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style="text-align: center; font-size: 0.6rem; color: var(--muted)"
+          >
+            1 USDT = 14,321.29 IDR
+          </div>
+
+          <div class="keypad">
+            <div class="key">1</div>
+            <div class="key active">2</div>
+            <div class="key">3</div>
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            <div class="key">.</div>
+            <div class="key">0</div>
+            <div class="key">⌫</div>
+          </div>
+
+          <button class="btn btn-primary btn-block" style="margin-top: auto">
+            Continue
+          </button>
+        </div>
+      </div>
+
+      <!-- PHONE 3 -->
+      <div class="phone">
+        <div class="row">
+          <div style="font-weight: 700; font-size: 0.9rem">Transaction</div>
+          <div class="avatar sm">🔔</div>
+        </div>
+
+        <div class="row">
+          <div class="balance">◎ 240.10 <small>USDT</small></div>
+          <div style="font-size: 0.7rem; color: var(--muted); font-weight: 600">
+            Weekly ▾
+          </div>
+        </div>
+
+        <div class="row" style="gap: 10px">
+          <div class="card-mini" style="flex: 1">
+            <div class="t">Income</div>
+            <div class="a" style="color: var(--green)">
+              20.00 <small>USDT</small>
+            </div>
+            <div class="t" style="font-size: 0.58rem">Withdraw 0.00 USDT</div>
+          </div>
+          <div class="card-mini" style="flex: 1">
+            <div class="t">Expense</div>
+            <div class="a" style="color: var(--red)">
+              94.10 <small>USDT</small>
+            </div>
+            <div class="t" style="font-size: 0.58rem">Send — Payment</div>
+          </div>
+        </div>
+
+        <div class="chart">
+          <div class="bar" style="height: 35%"></div>
+          <div class="bar" style="height: 55%"></div>
+          <div class="bar hi" style="height: 85%"></div>
+          <div class="bar" style="height: 45%"></div>
+          <div class="bar" style="height: 65%"></div>
+          <div class="bar" style="height: 30%"></div>
+          <div class="bar" style="height: 50%"></div>
+        </div>
+
+        <div class="section-title">
+          <span style="color: var(--muted); font-weight: 500">All</span>
+                        <span>Send</span>
+                        <span style="color: var(--muted); font-weight: 500">Received</span>
+                        <span style="color: var(--muted); font-weight: 500">Pending</span>
+                    </div>
+
+                    <div style="
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--muted);
+            margin-top: 4px;
+          ">
+                        Today
+                    </div>
+                    <div class="txn">
+                        <div class="avatar sm"></div>
+                        <div class="txn-info">
+                            <div class="n">Kinan Hazel</div>
+                            <div class="d" style="color: var(--red)">Send</div>
+                        </div>
+                        <div class="txn-amt" style="color: var(--red)">
+                            -42.00 <small>USDT</small>
+                        </div>
+                    </div>
+
+                    <div style="font-size: 0.7rem; font-weight: 700; color: var(--muted)">
+                        Yesterday
+                    </div>
+                    <div class="txn">
+                        <div class="avatar sm"></div>
+                        <div class="txn-info">
+                            <div class="n">Greyhold Sudirm…</div>
+                            <div class="d">Send</div>
+                        </div>
+                        <div class="txn-amt" style="color: var(--red)">
+                            -12.00 <small>USDT</small>
+                        </div>
+                    </div>
+
+                    <div class="tabbar">
+                        <div class="tab">🏠</div>
+                        <div class="tab active">➤</div>
+                        <div class="tab">📄</div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- ================= PALETTE ================= -->
+    <section class="palette" id="services">
+        <div class="swatch blue">#2A60FF</div>
+        <div class="swatch light">#F9F8FD</div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="footer-inner">
+            <!-- Brand column -->
+            <div class="footer-brand">
+                <div class="brand">
+                    <div class="brand-dot">R</div>
+                    <span>rakib.uiux</span>
+                </div>
+                <p>
+                    Crafting clean, human-friendly interfaces for fintech and modern web apps. Design that feels as good as it looks.
+                </p>
+                <div class="footer-social">
+                    <a href="#" title="Twitter / X">𝕏</a>
+                    <a href="#" title="GitHub">GH</a>
+                    <a href="#" title="LinkedIn">in</a>
+                    <a href="#" title="Dribbble">Dr</a>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="footer-col">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                </ul>
+            </div>
+
+            <!-- Company -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>© 2025 rakib.uiux · All rights reserved.</div>
+            <div class="made">
+                Made with <span class="heart">♥</span> and lots of coffee
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= MODAL ================= -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <button class="modal-close" data-close aria-label="Close">
+          &times;
+        </button>
+
+            <div class="tabs">
+                <button id="tab-login" class="active" data-tab="login">Log in</button>
+                <button id="tab-signup" data-tab="signup">Sign up</button>
+            </div>
+
+            <!-- LOGIN -->
+            <form id="form-login" class="auth-form" novalidate>
+                <h2>Welcome back</h2>
+                <p class="sub">Log in to continue to your wallet.</p>
+
+                <div class="field">
+                    <label for="login-email">Email</label>
+                    <input id="login-email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div class="field">
+                    <label for="login-password">Password</label>
+                    <input id="login-password" type="password" placeholder="••••••••" required />
+                </div>
+
+                <div class="form-extra">
+                    <label class="check"><input type="checkbox" /> Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+            Log in
+          </button>
+
+                <div class="divider">or continue with</div>
+                <div class="social">
+                    <button type="button">Google</button>
+                    <button type="button">Apple</button>
+                </div>
+
+                <div class="form-footer">
+                    Don't have an account? <a href="#" data-tab="signup">Sign up</a>
+                </div>
+                <div class="form-msg" id="login-msg"></div>
+            </form>
+
+            <!-- SIGNUP -->
+            <form id="form-signup" class="auth-form hidden" novalidate>
+                <h2>Create account</h2>
+                <p class="sub">Start sending money in seconds.</p>
+
+                <div class="field">
+                    <label for="signup-name">Full name</label>
+                    <input id="signup-name" type="text" placeholder="Jane Doe" required />
+                </div>
+                <div class="field">
+                    <label for="signup-email">Email</label>
+                    <input id="signup-email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div class="field">
+                    <label for="signup-password">Password</label>
+                    <input id="signup-password" type="password" placeholder="At least 8 characters" required minlength="8" />
+                </div>
+
+                <div class="form-extra">
+                    <label class="check"><input type="checkbox" required /> I agree to the Terms</label
+            >
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            Create account
+          </button>
+
+          <div class="divider">or sign up with</div>
+          <div class="social">
+            <button type="button">Google</button>
+            <button type="button">Apple</button>
+          </div>
+
+          <div class="form-footer">
+            Already have an account? <a href="#" data-tab="login">Log in</a>
+          </div>
+          <div class="form-msg" id="signup-msg"></div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      /* ============================================
+     1. THEME TOGGLE — runs first, cannot be broken
+     ============================================ */
+      (function () {
+        const root = document.documentElement;
+        const toggle = document.getElementById("theme-toggle");
+
+        // Determine initial theme
+        const saved = localStorage.getItem("theme");
+        let theme;
+        if (saved === "dark" || saved === "light") {
+          theme = saved;
+        } else if (
+          window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches
+        ) {
+          theme = "dark";
+        } else {
+          theme = "light";
+        }
+
+        function applyTheme(t) {
+          root.setAttribute("data-theme", t);
+          toggle.textContent = t === "dark" ? "☀️" : "🌙";
+        }
+        applyTheme(theme);
+
+        toggle.addEventListener("click", () => {
+          const current = root.getAttribute("data-theme");
+          const next = current === "dark" ? "light" : "dark";
+          applyTheme(next);
+          localStorage.setItem("theme", next);
+        });
+      })();
+
+      /* ============================================
+     2. MODAL + TABS
+     ============================================ */
+      const modal = document.getElementById("modal");
+      const loginForm = document.getElementById("form-login");
+      const signupForm = document.getElementById("form-signup");
+      const tabLogin = document.getElementById("tab-login");
+      const tabSignup = document.getElementById("tab-signup");
+      const loginMsg = document.getElementById("login-msg");
+      const signupMsg = document.getElementById("signup-msg");
+
+      function switchTab(tab) {
+        if (tab === "login") {
+          loginForm.classList.remove("hidden");
+          signupForm.classList.add("hidden");
+          tabLogin.classList.add("active");
+          tabSignup.classList.remove("active");
+        } else {
+          signupForm.classList.remove("hidden");
+          loginForm.classList.add("hidden");
+          tabSignup.classList.add("active");
+          tabLogin.classList.remove("active");
+        }
+      }
+
+      function openModal(tab) {
+        switchTab(tab || "login");
+        modal.classList.add("open");
+        document.body.style.overflow = "hidden";
+        loginMsg.className = "form-msg";
+        signupMsg.className = "form-msg";
+      }
+      function closeModal() {
+        modal.classList.remove("open");
+        document.body.style.overflow = "";
+      }
+
+      document.querySelectorAll("[data-open]").forEach((btn) => {
+        btn.addEventListener("click", () => openModal(btn.dataset.open));
+      });
+      document.querySelectorAll("[data-close]").forEach((btn) => {
+        btn.addEventListener("click", closeModal);
+      });
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      tabLogin.addEventListener("click", () => switchTab("login"));
+      tabSignup.addEventListener("click", () => switchTab("signup"));
+
+      document.querySelectorAll("a[data-tab]").forEach((el) => {
+        el.addEventListener("click", (e) => {
+          e.preventDefault();
+          switchTab(el.dataset.tab);
+        });
+      });
+
+      /* ============================================
+     3. DEMO FORM SUBMISSIONS (no backend)
+     ============================================ */
+      loginForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const email = document.getElementById("login-email").value.trim();
+        const password = document.getElementById("login-password").value;
+
+        if (!email || !password) {
+          loginMsg.className = "form-msg error";
+          loginMsg.textContent = "Please fill in all fields.";
+          return;
+        }
+        loginMsg.className = "form-msg success";
+        loginMsg.textContent = "Demo login successful (no backend connected).";
+        setTimeout(() => {
+          closeModal();
+          loginForm.reset();
+        }, 1400);
+      });
+
+      signupForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("signup-name").value.trim();
+        const email = document.getElementById("signup-email").value.trim();
+        const password = document.getElementById("signup-password").value;
+
+        if (!name || !email || !password) {
+          signupMsg.className = "form-msg error";
+          signupMsg.textContent = "Please fill in all fields.";
+          return;
+        }
+        if (password.length < 8) {
+          signupMsg.className = "form-msg error";
+          signupMsg.textContent = "Password must be at least 8 characters.";
+          return;
+        }
+        signupMsg.className = "form-msg success";
+        signupMsg.textContent =
+          "Demo signup successful (no backend connected).";
+        setTimeout(() => {
+          closeModal();
+          signupForm.reset();
+        }, 1400);
+      });
+
+      /* ============================================
+     4. KEYPAD INTERACTION
+     ============================================ */
+      document.querySelectorAll(".key").forEach((k) => {
+        k.addEventListener("click", () => {
+          document
+            .querySelectorAll(".key")
+            .forEach((x) => x.classList.remove("active"));
+          k.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
